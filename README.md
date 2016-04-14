@@ -1,3 +1,5 @@
+区分是master_redux_pro项目的演练
+
 执行的相关命令:
 
   npm install
