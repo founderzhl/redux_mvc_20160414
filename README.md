@@ -46,11 +46,11 @@
 
     如：
 
-    const menuItems = [
+      const menuItems = [
 
-      { text: 'Hello', link: '/hello', icon: 'fa fa-star' }
+        { text: 'Hello', link: '/hello', icon: 'fa fa-star' }
 
-    ]
+      ]
 
   7. 定义相应的组件
 
@@ -60,19 +60,19 @@
 
       export default class Hello extends React.Component {
 
-      render () {
+        render () {
 
-        return (
+          return (
 
-          <div>
+            <div>
 
-            Hello world!
+              Hello world!
 
-          </div>
+            </div>
 
-        )
+          )
 
-      }
+        }
       
       }
 
