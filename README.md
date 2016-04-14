@@ -17,7 +17,9 @@
      如：
 
      const {
+
       Hello
+
      } = components
 
      添加路由的处理:
@@ -25,9 +27,13 @@
      如：
 
       <ReduxRouter>
+
         <Route component={Application}>
+
           <Route path="hello" component={Hello} />
+
         </Route>
+
       </ReduxRouter>
 
    4. components/Application.js定义基本的显示面板控制
@@ -41,7 +47,9 @@
     如：
 
     const menuItems = [
+
       { text: 'Hello', link: '/hello', icon: 'fa fa-star' }
+
     ]
 
   7. 定义相应的组件
@@ -49,14 +57,23 @@
      如：pages/Hello.js
 
       import React from 'react'
+
       export default class Hello extends React.Component {
+
       render () {
+
         return (
+
           <div>
+
             Hello world!
+
           </div>
+
         )
+
       }
+      
       }
 
 
