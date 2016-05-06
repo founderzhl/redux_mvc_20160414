@@ -77,7 +77,17 @@
         }
       
       }
+  
+  8. 加载图片的控制
+      
+     加载要引入的图片文件：
 
+     import  '../assets/images/shop.svg'
+
+     引用时要使用全路径：
+
+     /assets/assets/images/shop.svg
+     
 
 参考学习的地址
 

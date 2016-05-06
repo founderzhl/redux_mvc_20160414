@@ -10,4 +10,6 @@ html { box-sizing: border-box; }
 @import "purecss/build/grids-responsive-min.css";
 
 /* Global CSS */
-@import "page.css";
+@import "bootstrap.min.css";
+@import "main2.css";
+/*@import "main.css";@import "page.css";@import "index_2.css";*/
